@@ -1,6 +1,5 @@
 {
   "name": "math-o-matic-quiz-generator",
-  "homepage": "https://github.com/React-js-Mastery/math-o-matic-quiz-generator/",
   "dependencies": {
     "nanoid": "4.0.1",
     "react": "18.2.0",
@@ -8,15 +7,12 @@
   },
   "devDependencies": {
     "@vitejs/plugin-react": "*",
-    "gh-pages": "^6.1.1",
     "vite": "latest"
   },
   "scripts": {
     "start": "vite",
     "dev": "vite",
     "build": "vite build",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
     "preview": "vite preview"
   }
 }
